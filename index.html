@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>   <h1>The generel quiz</h1>
+    <div class="std">
+      <p>Name: Ahtesham ul Hassan</p>
+      <p>Roll No: WM-1806</p>
+    </div>
+    <div class="container">
+          <fieldset>
+            <p>Q1: Which city is the capital of pakistan?</p>
+            <input name="capital" id="q1-a1" type="radio">Karachi <br>
+            <input name="capital" id="q1-a2" type="radio">Islamabad <br>
+            <input name="capital" id="q1-a3"  type="radio">Faisalabad <br>
+            <input name="capital" id="q1-a4" type="radio">Lahore <br><br>
+            <button onclick="Q1check()" class="ans-btn">Check Answer</button>
+            <div class="points"><p>Points:</p><p id="marksQ1">0</p></div>
+          </fieldset>
+          <br>
+          <fieldset>
+            <p>Q2: National poet of Pakistan?</p>
+            <input name="hero" id="q2-a1" type="radio">Liaquat Ali Khan <br>
+            <input name="hero" id="q2-a2" type="radio">Allama iqbal <br>
+            <input name="hero" id="q2-a3"  type="radio">Sir syed Ahmad Khan <br>
+            <input name="hero" id="q2-a4" type="radio">Mohsin ul mulk <br><br>
+            <button onclick="Q2check()" class="ans-btn">Check Answer</button>
+            <div class="points"><p>Points:</p><p id="marksQ2">0</p></div>
+          </fieldset>
+          <br>
+          <fieldset>
+            <p>Q3: Marks of Allama iqbal in the subject of history?</p>
+            <input name="marks" id="q3-a1" type="radio">60<br>
+            <input name="marks" id="q3-a2" type="radio">80<br>
+            <input name="marks" id="q3-a3"  type="radio">73 <br>
+            <input name="marks" id="q3-a4" type="radio">68 <br><br>
+            <button onclick="Q3check()" class="ans-btn">Check Answer</button>
+            <div class="points"><p>Points:</p><p id="marksQ3">0</p></div>
+          </fieldset>
+          <br>
+          <fieldset>
+            <p>Q4: Heart of Punjab?</p>
+            <input name="heart" id="q4-a1" type="radio">Lahore <br>
+            <input name="heart" id="q4-a2" type="radio">Faisalabad <br>
+            <input name="heart" id="q4-a3"  type="radio">Chiniot <br>
+            <input name="heart" id="q4-a4" type="radio">Islamabad<br><br>
+            <button onclick="Q4check()" class="ans-btn">Check Answer</button>
+            <div class="points"><p>Points:</p><p id="marksQ4">0</p></div>
+          </fieldset>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
